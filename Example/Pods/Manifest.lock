@@ -1,0 +1,16 @@
+PODS:
+  - MSCategory (0.1.0)
+
+DEPENDENCIES:
+  - MSCategory (from `../`)
+
+EXTERNAL SOURCES:
+  MSCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSCategory: 7d5a38bf3a593b5f7fc93b6076e32be842b9998f
+
+PODFILE CHECKSUM: 02859e2f61a797a166722d9015c5dec5b1e25d54
+
+COCOAPODS: 1.7.2

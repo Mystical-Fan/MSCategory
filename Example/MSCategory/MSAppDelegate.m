@@ -7,6 +7,7 @@
 //
 
 #import "MSAppDelegate.h"
+#import <MSCategory/MSCategory.h>
 
 @implementation MSAppDelegate
 

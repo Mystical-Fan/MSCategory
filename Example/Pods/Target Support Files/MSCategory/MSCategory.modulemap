@@ -1,0 +1,6 @@
+framework module MSCategory {
+  umbrella header "MSCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}
