@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3113A78622C9E95C0016643D /* NSString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3113A78522C9E95C0016643D /* NSString+Extension.swift */; };
 		31E2785922C8F77000820581 /* UIView+CurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E2783C22C8F76E00820581 /* UIView+CurrentVC.m */; };
 		31E2785A22C8F77000820581 /* UIImage+BundleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E2783D22C8F76E00820581 /* UIImage+BundleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31E2785B22C8F77000820581 /* UIView+CurrentVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E2783E22C8F76E00820581 /* UIView+CurrentVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,6 +68,7 @@
 /* Begin PBXFileReference section */
 		125D9D4A6511E9861702447381DB73E0 /* Pods-MSCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSCategory_Tests.modulemap"; sourceTree = "<group>"; };
 		278B2BEDB65927F3D032448280710063 /* Pods-MSCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSCategory_Example-umbrella.h"; sourceTree = "<group>"; };
+		3113A78522C9E95C0016643D /* NSString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSString+Extension.swift"; path = "MSCategory/Classes/NSString+Extension.swift"; sourceTree = "<group>"; };
 		31979C5905AF23BC6011269897C0CE3F /* Pods-MSCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		31E2783C22C8F76E00820581 /* UIView+CurrentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+CurrentVC.m"; path = "MSCategory/Classes/UIView+CurrentVC.m"; sourceTree = "<group>"; };
 		31E2783D22C8F76E00820581 /* UIImage+BundleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+BundleImage.h"; path = "MSCategory/Classes/UIImage+BundleImage.h"; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 				31E2784522C8F76E00820581 /* UIView+Shadow.m */,
 				F5476CB2D122F54C7139DC41927544CF /* Pod */,
 				F2792EC39212A47D0D53F9A967B82B0D /* Support Files */,
+				3113A78522C9E95C0016643D /* NSString+Extension.swift */,
 			);
 			name = MSCategory;
 			path = ../..;
@@ -414,6 +417,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					57229D5B4CB2F940AFE90ED9388042F0 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -474,6 +482,7 @@
 				E2E4C808866F547C1E2DE6D82D1FB065 /* MSCategory-dummy.m in Sources */,
 				31E2786C22C8F77000820581 /* UIView+RectCorner.m in Sources */,
 				31E2787522C8F77000820581 /* UITextField+Empty.m in Sources */,
+				3113A78622C9E95C0016643D /* NSString+Extension.swift in Sources */,
 				31E2785922C8F77000820581 /* UIView+CurrentVC.m in Sources */,
 				31E2786D22C8F77000820581 /* NSDictionary+expanded.m in Sources */,
 				31E2786422C8F77000820581 /* UIButton+MSKit.m in Sources */,
@@ -611,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71CA23A56C87C447CFB74DE9EEAE1DAF /* MSCategory.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -631,6 +641,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -706,6 +717,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71CA23A56C87C447CFB74DE9EEAE1DAF /* MSCategory.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
