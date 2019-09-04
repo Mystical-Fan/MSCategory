@@ -22,5 +22,6 @@
 #import "UIButton+CountDown.h"
 #import "UIImage+BundleImage.h"
 #import "UIButton+MSKit.h"
+#import "UIButton+TapRange.h"
 
 #endif /* MSCategory_h */
